@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "de.phl.programmingproject.enrollmentsystem.Main",
+            "projectName": "uebungsblatt-02-objekte-klassen-und-objektverwendung-luca-und-marius"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "de.phl.programmingproject.petadoption.Main",
+            "projectName": "uebungsblatt-02-objekte-klassen-und-objektverwendung-luca-und-marius"
+        }
+    ]
+}
