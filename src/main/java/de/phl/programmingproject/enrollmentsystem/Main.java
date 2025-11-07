@@ -5,32 +5,32 @@ package de.phl.programmingproject.enrollmentsystem;
  */
 public class Main {
     public static void main(String[] args) {
-        Student john = new Student("John Doe", "12345");                            // Aufgabe 1
+        Student john = new Student("John Doe", "12345");                           
 
-        Course computerScience = new Course("Introduction to Computer Science");       // Aufgabe 2
+        Course computerScience = new Course("Introduction to Computer Science");       
 
-        System.out.println(john.getInfo() + computerScience.getInfo());                      // Aufgabe 3
+        System.out.println(john.getInfo() + computerScience.getInfo());                      
 
-        Enrollment johnComputerScienceEnrollment = john.enroll(computerScience);             // Aufgabe 4
+        Enrollment johnComputerScienceEnrollment = john.enroll(computerScience);             
 
-        System.out.println(john.getInfo() + computerScience.getInfo());                      // Aufgabe 5
+        System.out.println(john.getInfo() + computerScience.getInfo());                      
 
-        System.out.println(johnComputerScienceEnrollment.getInfo());                         // Aufgabe 6
+        System.out.println(johnComputerScienceEnrollment.getInfo());                         
 
-        johnComputerScienceEnrollment.setGrade(4.0);                                  // Aufgabe 7
+        johnComputerScienceEnrollment.setGrade(4.0);                                  
 
-        System.out.println(johnComputerScienceEnrollment.getInfo());                         // Aufgabe 8
+        System.out.println(johnComputerScienceEnrollment.getInfo());                        
 
-        Course oop = new Course("Object-Oriented Programming");                        // Aufgabe 9
+        Course oop = new Course("Object-Oriented Programming");                        
 
-        john.enroll(oop);                                                                    // Aufgabe 10
+        john.enroll(oop);                                                                   
 
-        System.out.println(john.getCourses());                                               // Aufgabe 11
+        System.out.println(john.getCourses());                                               
 
-        System.out.println(computerScience.getStudents());                                   // Aufgabe 12
+        System.out.println(computerScience.getStudents());                                  
 
-        john.drop(computerScience);                                                          // Aufgabe 13
+        john.drop(computerScience);                                                          
 
-        System.out.println(computerScience.getStudents());                                   // Aufgabe 14
+        System.out.println(computerScience.getStudents());                                   
     }
 }
